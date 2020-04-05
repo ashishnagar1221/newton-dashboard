@@ -2,6 +2,7 @@ import React from 'react';
 import NewtonHead from './header';
 import Profile from './profile';
 import Track from './track';
+import YourTrack from './yourtrack';
 
 
 class Newton extends React.Component{
@@ -12,6 +13,7 @@ class Newton extends React.Component{
             <NewtonHead/>
             <Profile/>
             <Track/>
+            <YourTrack/>
             </div>
         )
     }

@@ -3,29 +3,29 @@ import React from 'react';
 const YourTrack = (props) =>{
     return (
         <div className='container'>
-            <div>
+            <div id='gap'>
                 Your Tracks
             </div>
-            <div>
-                <table>
+            <div id='table'>
+                <table class="table">
                     <tr>
-                        <th>
+                        <th scope="col">
                             Track Name
                         </th>
-                        <th>
+                        <th scope="col">
                             Start from
                         </th>
-                        <th>
+                        <th scope="col">
                             Status
                         </th>
                     </tr>
-                    <td>
+                    <td scope="col">
                     Full-Stack Web Development - November 2019
                     </td>
-                    <td>
+                    <td scope="col">
                     Nov 25, 2019 8:00 PM
                     </td>
-                    <td>
+                    <td scope="col">
                         ISA offered
                     </td>
                 </table>
