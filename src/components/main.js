@@ -9,6 +9,7 @@ class Newton extends React.Component{
         return (
             <div>
             <NewtonHead/>
+            <Profile/>
             </div>
         )
     }
