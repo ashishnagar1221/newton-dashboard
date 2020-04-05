@@ -82,11 +82,11 @@
     height: 140px;
 }
 
-#gap{
+.gap{
     margin: 20px 0 20px 20px;
 }
 
-#table{
+.tab{
     width: 85%;
     margin:auto;
 }

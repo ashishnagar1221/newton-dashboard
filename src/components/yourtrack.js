@@ -3,10 +3,10 @@ import React from 'react';
 const YourTrack = (props) =>{
     return (
         <div className='container'>
-            <div id='gap'>
+            <div class='gap'>
                 Your Tracks
             </div>
-            <div id='table'>
+            <div class='tab'>
                 <table class="table">
                     <tr>
                         <th scope="col">
